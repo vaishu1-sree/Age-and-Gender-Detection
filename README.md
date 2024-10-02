@@ -27,14 +27,22 @@ The project is designed for real-time or batch processing of images and videos, 
 1. Clone the repository:
    ```bash
    git clone https://github.com/misbah4064/age_and_gender_detection.git
+  
 2. Download the pre-trained models:
+   ```bash
    !gdown https://drive.google.com/uc?id=1_aDScOvBeBLCn_iv0oxSO8X1ySQpSbIS
    !unzip modelNweight.zip
+
 3. Install the required dependencies:
+   ```bash
    pip install -r requirements.txt
+
 4. Run the script to detect age and gender on an image:
+   ```bash
    python main.py --input image.jpg
+
 5. For video processing, use:
+   ```bash
    python main.py --input video.mp4
 
 ## Datasets:
